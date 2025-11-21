@@ -31,28 +31,13 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah Deep Learning, dengan fok
    ```
 
 3. **Persiapkan Dataset**
-   - Letakkan dataset makanan Indonesia di folder `data/IndonesianFood/`
-   - Strukturnya:
-     ```
-     data/IndonesianFood/
-       ├── class1/
-       │     ├── img1.jpg
-       │     ├── img2.jpg
-       ├── class2/
-       │     ├── img3.jpg
-       │     ├── img4.jpg
-     ```
 
 4. **Jalankan Training dan Testing**
-   - Atur parameter (learning rate, batch size, epoch, dll) di file konfigurasi jika diperlukan.
-   - Untuk menjalankan training dan evaluasi, gunakan:
-     ```bash
-     python main.py --model swin --data_dir ./data/IndonesianFood --epochs 50
-     ```
-   - Ganti `--model swin` dengan `--model deit` untuk model yang lain.
+   - Atur parameter (learning rate, batch size, epoch, dll) jika diperlukan.
+   - Jalankan training
 
 5. **Lihat Hasil Evaluasi**
-   - Hasil training dan evaluasi (seperti akurasi dan grafik) otomatis tersimpan di folder `results/`.
+   - Hasil training dan evaluasi (seperti akurasi dan grafik) dapat dilihat langsung.
    - Gunakan output tersebut untuk membandingkan performa tiap model.
 
 ## Catatan
